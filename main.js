@@ -20,7 +20,11 @@ for (let i = 0; i < operate.length; i++) {
   let current = operate[i]
   current.addEventListener('click', () => {
     let value = current.innerText
-    valueHolder += value
+    if (value === 'x') {
+      valueHolder += '*'
+    } else {
+      valueHolder += value
+    }
     viewer.textContent = valueHolder
   })
 }
