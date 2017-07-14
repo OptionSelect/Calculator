@@ -1,0 +1,35 @@
+html {
+  font-family: sans-serif;
+}
+
+table {
+  height: 25em;
+  width: 25em;
+  border-collapse: collapse;
+}
+td {
+  text-align: center;
+  border: 1px solid green;
+  font-size: 3em;
+}
+button {
+  background-color: rgb(51, 172, 47);
+  width: 100%;
+  height: 100%;
+  font-size: 1em;
+  color: white;
+}
+.operator {
+  background-color: rgb(89, 179, 85);
+  color: rgb(64, 100, 56);
+}
+.Clear {
+  width: 25%;
+}
+#clearbutton {
+  width: 100%;
+}
+.view {
+  background-color: rgb(51, 172, 47);
+  color: white;
+}
